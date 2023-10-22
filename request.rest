@@ -1,0 +1,16 @@
+POST http://localhost:5000/users 
+Content-Type: application/json
+
+{
+    "name": "rendy",
+    "email": "admin@gmail.com",
+    "password": "123456",
+    "confPassowrd": "123456",
+    "role": "admin",
+}
+
+###
+// get all users
+GET http://localhost:5000/users
+
+GET http://localhost:5000/users/
